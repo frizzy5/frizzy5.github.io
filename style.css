@@ -1,0 +1,137 @@
+
+.grid-container{
+	
+	display:grid;
+	grid-template-row: auto;
+	grid-template-columns: 220px 500px;
+	grid-gap: 1em;
+}
+
+.header{
+	display:flex;
+	background-color:#00FFFF ;
+	justify-content:center;
+	grid-column: 1 / span 2;
+
+}
+
+.contact{
+	background-color:  #A9A9A9;
+
+}
+h1{
+	border-style: ridge;
+  	margin: 10px;
+  	padding: 20px;
+  	font-size: 20px;
+  	text-align: center;
+	color:white;
+	font-family: Comic Sans MS;
+}
+
+.image{
+   border-radius: 100%;
+   max-width:50%;
+   max-height:50%;
+}
+.image2{
+	
+	 max-width:10%;
+	 max-height:10%;
+}
+.image3{
+	
+	 max-width:10%;
+	 max-height:10%;
+}
+.image4{
+	
+	 max-width:10%;
+	 max-height:10%;
+	 
+}
+hr{
+	width: 500px;
+	color: black;
+}
+.line{
+	border-bottom: 2px ridge black; 
+}
+.image5{
+	
+	 max-width:10%;
+	 max-height:10%;
+}
+.image6{
+	
+	 max-width:10%;
+	 max-height:10%;
+}
+.sce{
+	width: 500px;
+	color: black;
+}
+.flex-container {
+  display: flex;
+  flex-direction: row;
+  
+}
+
+
+.job{
+	margin: 0;
+   padding: 0 0 0 200;
+   
+}
+.work{
+	
+  
+   margin: 0;
+   padding: 0 0 0 200;
+}
+
+	
+.flex-container2 {
+  display: flex;
+  flex-direction: row;
+  
+}
+
+
+.job2{
+	margin: 0;
+   padding: 0 0 0 200;
+   
+}
+.work2{
+	
+   
+   margin: 0;
+   padding: 0 0 0 200;
+}
+.flex-container3 {
+  display: flex;
+  flex-direction: row;
+  
+}
+
+
+.degree{
+	margin: 0;
+   padding: 0 0 0 200;
+   
+}
+.Uni{
+	
+   margin: 0;
+   padding: 0 0 0 200;
+}
+p{
+	font-family: Comic Sans MS;
+}
+h2{
+	font-family: sans-serif;
+}
+h3{
+	font-family: sans-serif;
+}
